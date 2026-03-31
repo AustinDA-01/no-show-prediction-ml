@@ -1,5 +1,6 @@
 # no-show-prediction-ml
- Predicting Appointment No-Shows Using Machine Learning
+This project demonstrates how machine learning can be used to reduce missed appointments and improve operational efficiency in healthcare settings.
+
  
 - Business Problem
 Missed appointments create operational inefficiencies and impact patient outcomes. This project aims to predict which clients are most likely to no-show so     organizations can take proactive action.
