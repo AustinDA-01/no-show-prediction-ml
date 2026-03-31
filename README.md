@@ -1,38 +1,52 @@
-# no-show-prediction-ml
-This project demonstrates how machine learning can be used to reduce missed appointments and improve operational efficiency in healthcare settings.
+# Predicting Appointment No-Shows Using Machine Learning
 
- 
-- Business Problem
-Missed appointments create operational inefficiencies and impact patient outcomes. This project aims to predict which clients are most likely to no-show so     organizations can take proactive action.
+This project demonstrates how machine learning can be used to identify clients at risk of missing scheduled appointments and improve operational efficiency in healthcare settings.
 
-- Dataset
-This dataset includes:
-Client demographics
-Appointment details
-Prior attendance history
-Operational factors such as transportation barriers and reminders
+## Business Problem
+Missed appointments create operational inefficiencies, reduce resource utilization, and negatively impact client outcomes. The goal of this project was to predict which clients are most likely to no-show so organizations can take proactive action.
 
-- Methods
-Exploratory Data Analysis (EDA)
-Logistic Regression (baseline model)
-Random Forest (improved model)
+## Dataset
+The dataset includes:
+- Client demographics  
+- Appointment details  
+- Prior attendance history  
+- Operational factors such as transportation barriers and reminders  
 
- - Results
-Random Forest outperformed the baseline model
+## Methods
+- Exploratory Data Analysis (EDA)  
+- Logistic Regression (baseline model)  
+- Random Forest (improved model)  
+- Model evaluation using classification metrics  
+
+## Results
+The Random Forest model improved prediction performance compared to the baseline Logistic Regression model.
+
 Key drivers of no-shows included:
-Prior no-show history
-Transportation barriers
-Distance to facility
-Reminder usage
+- Prior no-show history  
+- Transportation barriers  
+- Distance to facility  
+- Reminder usage  
 
-- Business Impact
+## Business Impact
 These insights can help organizations:
-Reduce missed appointments
-Improve scheduling efficiency
-Target high-risk clients with interventions
+- Reduce missed appointments  
+- Improve scheduling efficiency  
+- Target high-risk clients with interventions  
 
--  Tools Used
-Python
-Pandas
-Scikit-learn
-Matplotlib / Seaborn
+## Tools Used
+- Python  
+- Pandas  
+- Scikit-learn  
+- Matplotlib  
+- Seaborn  
+
+## Project Structure
+```
+no-show-prediction-ml/
+├── data/
+│   └── project1_dataset_v2.csv
+├── notebooks/
+│   ├── no_show_model_v1.ipynb
+│   └── no_show_model_v2.ipynb
+└── README.md
+```
