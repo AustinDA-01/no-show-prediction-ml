@@ -40,13 +40,3 @@ These insights can help organizations:
 - Matplotlib  
 - Seaborn  
 
-## Project Structure
-```
-no-show-prediction-ml/
-├── data/
-│   └── project1_dataset_v2.csv
-├── notebooks/
-│   ├── no_show_model_v1.ipynb
-│   └── no_show_model_v2.ipynb
-└── README.md
-```
